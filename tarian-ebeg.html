@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarian Ebeg: Keajaiban Seni Pertunjukan Banyumasan</title>
+    <link rel="icon" href="/favicon.svg">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px; /* Batas lebar konten agar tetap rapi di layar besar */
+            margin: 0 auto;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            text-shadow: 1px 1px 2px #000;
+        }
+        .content {
+            padding: 20px 15px;
+            background-color: #ffffff;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #16a085;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container svg {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .caption {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            background-color: #34495e;
+            color: #bdc3c7;
+            font-size: 0.9em;
+        }
+
+        /* Media Queries untuk Responsivitas */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.6em;
+            }
+            .content {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+            h2 {
+                font-size: 1.4em;
+            }
+            .container {
+                padding: 10px;
+            }
+            .content {
+                margin: 5px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tarian Ebeg: Keajaiban Seni Pertunjukan Banyumasan</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="image-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" aria-label="Ilustrasi tarian ebeg">
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#e67e22;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#f1c40f;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Latar Belakang -->
+                    <rect width="600" height="300" fill="#ecf0f1"/>
+
+                    <!-- Siluet Penari Ebeg -->
+                    <path d="M 50 250 Q 70 200 100 250 T 150 250 T 200 250 T 250 250" fill="none" stroke="url(#grad1)" stroke-width="8" stroke-linecap="round"/>
+                    <circle cx="100" cy="240" r="15" fill="#2c3e50"/> <!-- Kepala -->
+                    <rect x="90" y="255" width="20" height="20" fill="#2c3e50"/> <!-- Tubuh -->
+                    <path d="M 90 275 L 70 285 L 80 295 Z" fill="#2c3e50"/> <!-- Kaki 1 -->
+                    <path d="M 110 275 L 130 285 L 120 295 Z" fill="#2c3e50"/> <!-- Kaki 2 -->
+
+                    <path d="M 250 250 Q 270 200 300 250 T 350 250 T 400 250 T 450 250" fill="none" stroke="url(#grad2)" stroke-width="8" stroke-linecap="round"/>
+                    <circle cx="300" cy="240" r="15" fill="#2c3e50"/> <!-- Kepala -->
+                    <rect x="290" y="255" width="20" height="20" fill="#2c3e50"/> <!-- Tubuh -->
+                    <path d="M 290 275 L 270 285 L 280 295 Z" fill="#2c3e50"/> <!-- Kaki 1 -->
+                    <path d="M 310 275 L 330 285 L 320 295 Z" fill="#2c3e50"/> <!-- Kaki 2 -->
+
+                    <!-- Detail Kuda Lumping (Representasi Sederhana) -->
+                    <path d="M 80 230 L 60 210 L 70 190 L 90 210 Z" fill="#d35400" transform="rotate(-15 70 210)"/>
+                    <path d="M 80 230 L 60 210 L 70 190 L 90 210 Z" fill="#f39c12" transform="rotate(15 70 210)"/>
+
+                    <path d="M 280 230 L 260 210 L 270 190 L 290 210 Z" fill="#f39c12" transform="rotate(-15 270 210)"/>
+                    <path d="M 280 230 L 260 210 L 270 190 L 290 210 Z" fill="#e67e22" transform="rotate(15 270 210)"/>
+
+                    <!-- Teks di atas gambar -->
+                    <text x="300" y="30" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50" text-anchor="middle" font-weight="bold">Gerak Lincah Penuh Makna</text>
+                </svg>
+                <div class="caption">Ilustrasi sederhana menggambarkan gerakan dinamis dan kuda lumping dalam tarian Ebeg.</div>
+            </div>
+
+            <h2>Jejak Budaya Banyumas Lewat Tarian Ebeg</h2>
+            <p>Tarian Ebeg, atau sering juga disebut Jathilan Ebeg, adalah salah satu bentuk seni pertunjukan tradisional yang berasal dari wilayah Banyumas, Jawa Tengah. Tarian ini memiliki akar budaya yang kuat dan menjadi bagian tak terpisahkan dari identitas masyarakat setempat. Lebih dari sekadar hiburan semata, Ebeg adalah medium ekspresi spiritual, pelestarian sejarah, dan perekat sosial. Keunikan Ebeg terletak pada perpaduan antara gerakan tarian, musik pengiring yang khas, serta properti yang digunakan, terutama kuda lumping yang menjadi ikon utamanya.</p>
+
+            <h2>Kuda Lumping: Jiwa dari Tarian Ebeg</h2>
+            <p>Properti utama dalam tarian Ebeg adalah kuda lumping, yang terbuat dari anyaman bambu atau kertas yang dibentuk menyerupai kuda. Kuda ini dipegang dan dimainkan oleh para penari yang biasanya berjumlah puluhan orang. Gerakan para penari yang lincah, mengikuti irama gamelan, seolah-olah mereka menunggangi kuda sesungguhnya. Kuda lumping dalam Ebeg bukan hanya sekadar alat peraga, melainkan dipercaya memiliki kekuatan spiritual. Dalam beberapa pementasan, penari Ebeg dapat memasuki kondisi trance atau kesurupan, di mana mereka menunjukkan kemampuan fisik yang luar biasa, seperti memakan beling, membakar diri, atau menari di atas bara api. Kondisi ini dianggap sebagai manifestasi roh para prajurit atau khasiat dari khodam yang mendiami kuda lumping.</p>
+
+            <h2>Prosesi dan Makna Mendalam</h2>
+            <p>Sebuah pementasan tarian Ebeg biasanya diawali dengan berbagai ritual. Pembukaan seringkali diawali dengan pembacaan doa atau sesaji sebagai bentuk penghormatan kepada alam dan leluhur. Musik pengiring yang energik, dimainkan oleh seperangkat gamelan degung yang terdiri dari gong, kendang, bonang, saron, dan terompet, menciptakan suasana sakral sekaligus meriah. Instrumen seperti terompet dan gong seringkali digunakan untuk memanggil roh atau energi gaib.</p>
+            <p>Gerakan tarian Ebeg sangat dinamis dan bervariasi. Ada gerakan yang menggambarkan kegagahan prajurit saat berperang, seperti hentakan kaki yang kuat, lompatan, dan ayunan tangan. Ada pula gerakan yang lebih lembut dan ekspresif, menunjukkan kegembiraan atau kesedihan. Para penari, yang seringkali adalah laki-laki, mengenakan pakaian adat yang khas, lengkap dengan aksesoris seperti ikat kepala, selendang, dan gelang. Kostum ini dirancang untuk menambah kesan magis dan artistik saat mereka bergerak.</p>
+
+            <h2>Ebeg sebagai Cermin Kehidupan dan Kepercayaan</h2>
+            <p>Tarian Ebeg tidak hanya menampilkan aspek kesenian, tetapi juga merefleksikan nilai-nilai kehidupan masyarakat Banyumas. Keberanian, kekompakan, dan ketahanan adalah tema-tema yang sering tersirat dalam setiap gerakan. Di samping itu, unsur spiritualitas yang kental menunjukkan keterikatan masyarakat Banyumas dengan dunia gaib dan leluhur mereka. Pementasan Ebeg seringkali diadakan dalam acara-acara penting seperti syukuran panen, pernikahan, khitanan, atau upacara adat lainnya, sebagai sarana memohon keselamatan, keberkahan, dan untuk menghormati tradisi.</p>
+            <p>Perkembangan zaman membawa Ebeg pada berbagai adaptasi. Kini, tarian ini tidak hanya ditampilkan dalam bentuk tradisional, tetapi juga dikembangkan dengan koreografi yang lebih modern atau dipadukan dengan unsur-unsur pertunjukan lain. Namun, esensi dan nilai-nilai luhur tarian Ebeg tetap dipertahankan. Pelestarian Ebeg menjadi tugas bersama, agar kekayaan budaya ini terus hidup dan dikenal oleh generasi mendatang, menjadi bukti nyata dari kekayaan seni pertunjukan Indonesia yang penuh warna dan makna.</p>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Hak Cipta Dilindungi</p>
+    </footer>
+<script src="/ik.js"></script>
+<div class="related"><h3>Related Posts</h3><ul>
+<li><a href="/tarian-tradisional">Tarian Tradisional</a></li>
+<li><a href="/tarian-bali">Tarian Bali</a></li>
+<li><a href="/tarian-eko-supriyanto">Tarian Eko Supriyanto</a></li>
+<li><a href="/tarian-egrang-ditarikan-secara">Tarian Egrang Ditarikan Secara</a></li>
+<li><a href="/tarian-burung-enggang-berasal-dari">Tarian Burung Enggang Berasal Dari</a></li>
+<li><a href="/tarian-daerah-sumatera-barat">Tarian Daerah Sumatera Barat</a></li>
+<li><a href="/tarian-adat-papua">Tarian Adat Papua</a></li>
+<li><a href="/tarian-jawa-tengah">Tarian Jawa Tengah</a></li>
+<li><a href="/tarian-aceh">Tarian Aceh</a></li>
+<li><a href="/tarian-bengkulu">Tarian Bengkulu</a></li>
+<li><a href="/tarian-emak-emak-lucu">Tarian Emak Emak Lucu</a></li>
+<li><a href="/tarian-enggang-berasal-dari">Tarian Enggang Berasal Dari</a></li>
+</ul></div>
+<div style="text-align:center; margin:30px 0;"><a href="/" style="text-decoration:none; font-size:18px;">🏠 Homepage</a></div>
+</body>
+</html>
